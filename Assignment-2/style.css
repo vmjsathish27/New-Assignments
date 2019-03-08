@@ -1,0 +1,616 @@
+body {
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+#about,
+#service,
+#experience,
+#education,
+#contact {
+  position: relative;
+}
+
+
+
+  .navWritting a{
+    margin: auto;
+    padding: 0px 0px 0px 50px;
+    float: left;
+  }
+  
+  
+  
+  .contentImg1 {
+    margin: 0;
+    padding: 0;
+    float: left;
+  }
+  .contentImg1 > img {
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 100%;    
+    height: 100%;
+    min-height: 95vh;
+  }
+
+
+  
+  .content1  {
+    background-color: #f1e2d7;
+  }
+  .content1 > .section-title {
+    margin: 0;
+    padding: 70px 20px 10px 35px;
+  }
+  .content1 > .section-title > h4{
+    font-weight: 350;
+    font-size: 15px;
+    padding: 80px 0px 0px 0px;
+    color:#999;
+  }
+  .content1 > .section-title > h1{
+    font-weight: 300;
+    padding: 30px 0px 15px 0px;
+  }
+  .content1 > .section-title > p{
+    font-weight: 330;
+    font-size: 18px;
+    padding: 10px 0px 50px 0px;
+    color: #999;
+  }
+  .content1 > .section-title > button{
+    border-radius: 200px;
+    border: 2px solid black;  
+    padding: 6px 25px 6px 25px;
+  }  
+  .content1 > .section-title > button:hover{
+    background-color:rgb(87, 136, 136); 
+  }
+   
+
+
+
+  .Section2 {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .content2 {
+      margin: 0;
+      padding: 0;
+      float: left; 
+  }
+  .content2 h1{
+      font-weight: 300;
+      padding-top: 15px;
+  }
+  .content2 p{
+    color: #888;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+ }
+.content2 > .about-thumb {
+    padding: 32px 22px 22px 50px;
+ }
+  .contentImg2 {
+    margin: 0;
+    float: left;
+  }
+  .contentImg2 img {
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 100%; 
+    height:auto; 
+  } 
+  .content3 {
+    margin: 0;
+    padding: 0;
+    background-color: #E3AE57;    
+  }
+  .content3 strong {
+    font-weight: bold;
+    padding-bottom: 8px;
+    padding-top: 10px;
+    display: inline-block;
+  }
+  .content3 span {
+    color: white;
+    font-size: 15px;
+    padding-top: 15px;
+  }
+  .content3 > .skill-thumb { 
+      margin: 0;
+      padding: 22px 45px 32px 36px;
+      justify-content:  center;
+  }
+  
+  .content3 > .skill-thumb > h1 { 
+    text-align: center;
+ }
+
+
+  #about .progress {
+    background: #ffffff;
+    border-radius: 0px;
+    box-shadow: none;
+    height: 2px;
+    margin: 5px 0px 5px 0px;
+  }
+  
+  #about .progress-bar-primary {
+    background: #232B2B;
+    }
+  
+
+
+/* sERVICES SECTION */
+
+  .content4 {
+    margin: 0;
+    padding: 0;
+    background-color: #E3AE57;
+  }
+  .content5 {
+    margin: 0;
+    padding: 0;
+    background-color: #E9724C;
+  }
+  .content6 {
+    margin: 0;
+    padding: 0;
+    background-color: #161616;
+  }
+  .content7 {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+  }
+
+  
+  .content4 h3 {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    color: white;
+  }
+  .content4 p {
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 300;
+    color: white;
+  }
+  .content4 .service-thumb .fa {
+    font-size: 42px;
+    padding-bottom: 22px;
+    color: white;
+    font-style: normal; 
+  }
+
+
+  .content5 h3 {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    color: white;
+  }
+  .content5 p {
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 300;
+    color: white;
+  }
+  .content5 .service-thumb .fa {
+    font-size: 42px;
+    padding-bottom: 22px;
+    color: white;
+    font-style: normal; 
+  }
+
+
+  .content6 h3 {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    color: white;
+  }
+  .content6 p {
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 300;
+    color: white;
+  }
+  .content6 .service-thumb .fa {
+    font-size: 42px;
+    padding-bottom: 22px;
+    color: white;
+    font-style: normal; 
+  }
+
+
+
+  .content7 h3 {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    color: black;
+  }
+  .content7 p {
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 300;
+    color: black;
+  }
+  .content7 .service-thumb .fa {
+    font-size: 42px;
+    padding-bottom: 22px;
+    color: black;
+    font-style: normal; 
+  }
+  
+  #service .service-thumb {
+    padding: 52px 22px 52px 22px;
+  }
+
+
+  
+  
+  .contentImg2 {
+    margin: 0;
+    padding: 0;
+    }  
+  .contentImg2 > img {
+    width: 100%;
+    height: 100%;
+    min-height: 50vh;
+    background-size: cover;
+    background-position: 50% 50%;
+    }
+
+  .content8 {
+    margin: 0;
+    padding: 0;
+    background-color: #E9724C;
+  }
+  .content8 > .experience-thumb {
+    padding: 40px 32px 32px 72px;
+  }
+  .content8 h1{
+    font-size: 42px;
+    padding: 30px 0px 5px 0px;
+    margin-bottom: 0px;
+    font-weight:  300;
+    color: white;
+
+  }
+  .content8 h3{
+    font-size: 26px;
+    line-height: 32px;
+    font-weight:  300;
+    padding-top: 12PX;
+    color:white;
+  }
+
+  .content8 small{
+    font-size: 17px;
+    line-height: 32px;
+    font-weight: bold;
+    padding-top: 12PX;
+    color:#633;
+  }
+
+  .content8 p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color:white;
+  }
+  .content8 .experience-thumb .fa {
+    font-size: 42px;
+    padding: 12px 22px 0px 0px;
+    color: white;
+    font-style: normal; 
+  }
+   
+
+  
+
+
+
+  .content9 {
+    margin: 0;
+    padding: 0;
+    background-color: #E3AE57;
+  }
+  .content9 h1{
+    font-size: 42px;
+    padding: 30px 0px 5px 0px; 
+    margin-bottom: 0px;
+    font-weight:  300;
+    color: white;
+
+  }
+  .content9 h3{
+    font-size: 26px;
+    line-height: 32px;
+    font-weight:  300;
+    padding-top: 12PX;
+    color:white;
+  }
+
+  .content9 small{
+    font-size: 17px;
+    line-height: 32px;
+    font-weight: bold;
+    padding-top: 12PX;
+    color:#633;
+  }
+
+  .content9 p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color:white;
+  }
+
+  .content9 > .education-thumb {
+    padding: 40px 32px 20px 70px;
+  }
+  .content9 .education-thumb .fa {
+    font-size: 42px;
+    padding: 12px 22px 0px 0px;
+    color: white;
+    font-style: normal; 
+  }
+
+  .contentImg3 {
+    margin: 0;
+    padding: 0;
+    }  
+  .contentImg3 > img {
+    width: 100%;
+    height: 100%;
+    min-height: 50vh;
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+
+ 
+ 
+ 
+  #quotes {
+    background: url('../Assignment-2/images/quotes-bg.jpg') 50% 0 repeat-y fixed;
+    background-size: cover;
+    background-position: center center;
+    color: #ffffff;
+    position: relative;
+    padding: 100px 0px;
+    width: 100%;
+}
+
+#quotes .overlay {
+    background: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    opacity: 0.7;
+}
+
+#quotes .fa {
+  font-size: 42px;
+  margin-top: 32px;
+  margin-bottom: 22px;
+}
+
+#quotes h2 {
+  font-size: 42px;
+  line-height: 52px;
+  font-weight: 300;
+  text-align: center;
+}
+
+#quotes p {
+  text-align: center;
+  padding-top: 32px;
+  color: #888;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+}
+
+
+
+
+
+
+
+/* ------------- */
+
+#contact {
+  background: #E9724C;
+}
+.content10 {
+  margin: 0;
+  padding: 0px 0px 0px 10px;
+  width:  100%;
+}
+#contact .contact-form,
+#contact .contact-thumb {
+  padding: 22px 32px 22px 50px;
+  /* min-height: 75vh; */
+}
+.contact-form h1{
+  font-size: 42px;
+  padding-bottom: 10px;
+  padding-top: 5px;
+  font-weight: 300;
+  color: white;
+}
+.contact-form p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: white;
+  padding-bottom: 50px;
+}
+
+#contact .form-control::-moz-placeholder{color:#ffffff;opacity:1}
+#contact .form-control:-ms-input-placeholder{color:#ffffff}
+#contact .form-control::-webkit-input-placeholder{color:#ffffff}
+
+#contact .form-control {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #E3AE57;
+  border-radius: 0px;
+  box-shadow: none;
+  color: #ffffff;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  transition: all 0.4s ease-in-out;
+}
+
+#contact .form-control:focus {
+  border-bottom-color: #ffffff;
+}
+
+#contact input {
+  height: 45px;
+}
+
+#contact input[type="submit"] {
+  background: #ffffff;
+  border: 2px solid transparent;
+  border-radius: 40px;
+  color: #161616;
+  padding-bottom: 10px;
+}
+
+#contact input[type="submit"]:hover {
+  background: transparent;
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+
+
+.contentImg4 {
+  margin: 0;
+  padding: 0;
+  float: left;
+  }
+  .contentImg4 img {
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 100%; 
+  height:100%;
+  min-height: 75vh; 
+  }
+
+
+.content11 {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  }
+.content11 h3{
+  font-size: 26px;
+  line-height: 32px;
+  color: white;
+  font-weight: 300;
+}
+.content11 p {
+  color: #888;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  padding-top: 5px;
+}
+
+#contact .fa {
+  padding-right: 10px;
+}
+
+#contact .contact-info1 {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+#contact .contact-info2 {
+  padding-top: 20px;
+}
+
+/* ----FOOTER----------- */
+
+footer {
+  padding: 140px 0px;
+  width: 100%
+}
+
+footer .footer-copyright {
+  text-align:center ;
+}
+footer .footer-copyright a{
+  color : #E3AE57;
+}
+
+.social-icon {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.social-icon li {
+  display: inline-block;
+  list-style: none;
+}
+
+.social-icon li a {
+  border: 2px solid transparent;
+  color: #999;
+  border-radius: 100px;
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: none;
+  transition: all 0.4s ease-in-out;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  vertical-align: middle;
+  position: relative;
+  margin: 22px 4px 10px 4px;
+}
+
+.social-icon li a:hover {
+  background: #E3AE57;
+  border-color: #ffffff;
+  color: #ffffff;
+  transform: scale(1.1);
+}

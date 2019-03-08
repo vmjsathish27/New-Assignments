@@ -1,0 +1,250 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.Main-nav {
+  margin: 0;
+  padding: 30px 0;
+  position: relative;
+}
+
+.navWritting img{
+  margin: auto;
+  padding: 0px 0px 0px 60px;
+  
+}
+.drown-menu {
+  float: right;
+}
+
+
+.Main-nav ul li a:hover, .Main-nav ul li a:focus, .Main-nav ul li a:active {
+  color: #33a3bd;
+}
+.Main-nav ul li.nav-item {
+  position: relative;
+}
+.Main-nav ul li.nav-item > a {
+  position: relative;
+  padding-right: 20px !important;
+}
+
+.Main-nav ul li.nav-item .dropdown-menu:after {
+  -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.15);
+  z-index: 1002;
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  text-align: left;
+  background: #fff;
+  padding: 20px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-transition: 0s;
+  -o-transition: 0s;
+  transition: 0s;
+}
+
+.Main-nav ul li.nav-item .dropdown-menu a {
+  padding: 2px 0px;
+  display: block;
+  color: #999999;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 7px;
+}
+.Main-nav ul li.nav-item:hover a, .Main-nav ul li.nav-item:focus a {
+  color: #33a3bd;
+}
+
+/* ----------------------------------------- */
+.section1 {
+  background-color: #76c8ee;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+.section1 .row{
+  margin: 0;
+  width: 100%;
+}
+.contentImg1 {
+  width: 100%;
+  height: 100%;
+  padding: 100px 0;
+  margin: 0;
+}
+.contentImg1 img {
+  
+  height: auto;
+  max-width: 50% ;
+  padding: 0;
+  margin:0;
+  background-size: cover;
+  background-position: 50% 50%; 
+}
+.content1 {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 100px 0;
+  
+}
+.content1 h1 {
+  font-size: 59px;
+  font-weight: 300;
+  color: whitesmoke;
+  padding: 0px;
+}
+.content1 p {
+  font-size: 20px;
+  font-weight: 300;
+  color: #d3f1ed;
+  padding: 20px 0;
+}
+.content1 .btn {
+  color: #34a7bd !important;
+  text-shadow: none !important;
+  padding:15px 25px;
+  border: 2px solid white;
+  background-color: white;
+  border-radius: 0px;
+}
+
+/* --------------------------------------- */
+.section2 {
+  padding: 50px 0;
+  background-color: #f6f6f6;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+.section2 .row {
+  padding:0;
+  margin: 0;
+}
+.section2 .client {
+  float: left;
+  width: 100%;
+  padding: 1em 0;
+  background: #f6f6f6;
+}
+.section2 .client .client img {
+  margin:0;
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+}
+
+
+/* --------------------------------------- */
+.section3 {
+  padding: 50px 0;
+  margin: 0;
+}
+.section3 .row {
+  padding:0;
+  margin: 0;
+}
+.content3 {
+  padding:80px 0;
+  margin: 0;
+}
+.content3 h2{
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: #4d4d4d;
+  font-weight: 300;
+}
+.content3 p{
+  font-size: 20px;
+  color: #898989;
+}
+.content3 .btn-special{
+  background: #00ffa3;
+  color: #239c71;
+  border: 2px solid #00ffa3;
+  border-radius: 0;
+}
+
+.content4 .service {
+  margin-left: 5px;
+  margin-right: 5px;
+  text-align: center;
+  margin-bottom: 30px;
+  position: relative;
+  box-shadow: 0px 22px 68px -9px rgba(8, 8, 8, 0.15);
+  bottom: 0px;
+  padding: 2em;
+  background: rgb(240, 236, 236);
+  transition: all 0.5s ease 0s;
+}
+
+/* ------------------------- */
+
+
+.section4 {
+  padding: 7em 0;
+}
+.section4 .row {
+  margin: 0;
+  padding: 0;
+}
+
+/* ---------------------------------------------- */
+.content5 {
+  padding-bottom: 50px;
+}
+.content5 h2 {
+  padding: 0px;
+  font-size: 40px;
+  color: #4d4d4d;
+  font-weight: 300;
+}
+.content5 p{
+  padding: 0px;
+  font-size: 18px;
+  color: #898989;
+  font-weight: 300;
+}
+.gtco-services .service h3 {
+  font-size: 18px;
+  color: #000;
+  text-align: left;
+  position: relative;
+  padding-left: 30px;
+}
+.gtco-services .service h3 i {
+  position: absolute;
+  left: 0;
+  top: -0.1em;
+  color: #17B794;
+  font-size: 22px !important;
+}
+.gtco-services .service p {
+  text-align: left;
+  color: #898989;
+  font-size: 15px;
+}
+.gtco-services .service p:last-child {
+  margin-bottom: 0;
+}
+.gtco-services .service.changed {
+  bottom: -7em;
+}
+.content7 .btn {
+  background-color: #17B794;
+  border-radius: 0;
+}
+.people .row {
+  margin: 0;
+  padding: 0;
+}
